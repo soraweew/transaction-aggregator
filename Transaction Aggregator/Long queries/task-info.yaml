@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: src/aggregator/Application.java
+    visible: true
+    learner_created: false
+  - name: src/resources/application.properties
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: src/aggregator/controller.java
+    visible: true
+    learner_created: false
+  - name: test/ApplicationTests.java
+    visible: false
+    learner_created: false
+  - name: test/DataServer.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/424/stages/2487/implement#comment
+status: Unchecked
+record: 4

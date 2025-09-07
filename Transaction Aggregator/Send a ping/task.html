@@ -1,0 +1,20 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>In this stage, you will create a basic web service that will have a single endpoint. When a client sends a GET request to that endpoint, the service should connect to another server and return the response body it receives.</p>
+<p>It's a simple but important step that will be the starting point for further development. You must be sure that you can successfully connect to a server before requesting actual data from it.</p>
+<h5 id="objectives">Objectives</h5>
+<ul>
+<li>Create the <code class="java">GET /aggregate</code> endpoint that returns a plain text string to the client. When the client sends a request to this endpoint, the service should connect to another server at the address <code class="java">http://localhost:8889</code> and send a GET request to its <code class="java">/ping</code> endpoint:
+
+    <pre><code class="language-no-highlight">URI         : http://localhost:8889/ping
+HTTP method : GET</code></pre>
+    The server will respond with the status code <code class="java">200 OK</code> and a string in the <code class="java">text/plain</code> format. Your service should return that string to the client.</li>
+<li>At this stage the server you connect to will always send a valid response so you don't need to care about any error handling.</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1.</strong> <em>GET request to the /aggregate endpoint</em>:</p>
+<p><em>Response code</em>: <code class="java">200 OK</code></p>
+<p><em>Response body</em>:</p>
+<pre><code class="language-no-highlight">Pong from server 1</code></pre>
+
+</div>

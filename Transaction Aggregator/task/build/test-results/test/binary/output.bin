@@ -1,0 +1,60 @@
+[1;31m
+Start test 1[0m
+[0;34m
+3[0m[0;34m  .   ____          _            __ _ _
+4[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+5[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+6[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+5[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+4[0m[0;34m =========|_|==============|___/=/_/_/_/
+6[0m[0;34m :: Spring Boot ::                (v3.2.0)
+[0m[0;34m
+ì[0m[0;34m2025-09-01T14:07:32.817+07:00  INFO 4639 --- [    Test worker] aggregator.Application                   : Starting Application using Java 21.0.7 with PID 4639 (started by soraweew in /Users/soraweew/IdeaProjects/Transaction Aggregator/Transaction Aggregator/task)
+π[0m[0;34m2025-09-01T14:07:32.819+07:00  INFO 4639 --- [    Test worker] aggregator.Application                   : No active profile set, falling back to 1 default profile: "default"
+û[0m[0;34m2025-09-01T14:07:33.325+07:00  INFO 4639 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+è[0m[0;34m2025-09-01T14:07:33.331+07:00  INFO 4639 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+¶[0m[0;34m2025-09-01T14:07:33.332+07:00  INFO 4639 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+®[0m[0;34m2025-09-01T14:07:33.356+07:00  INFO 4639 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+¥[0m[0;34m2025-09-01T14:07:33.356+07:00  INFO 4639 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 518 ms
+™[0m[0;34m2025-09-01T14:07:33.613+07:00  INFO 4639 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+≠[0m[0;34m2025-09-01T14:07:33.636+07:00  INFO 4639 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+∂[0m[0;34m2025-09-01T14:07:33.647+07:00  INFO 4639 --- [    Test worker] aggregator.Application                   : Started Application in 0.985 seconds (process running for 1.338)
+´[0;34m2025-09-01T14:07:33.810+07:00  INFO 4639 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+û[0m[0;34m2025-09-01T14:07:33.811+07:00  INFO 4639 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ñ[0m[0;34m2025-09-01T14:07:33.811+07:00  INFO 4639 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+[0m[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=033
+[0m[1;31m
+Start test 2[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=033
+[0m[1;31m
+Start test 3[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=033
+[0m[1;31m
+Start test 4[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=128
+[0m[1;31m
+Start test 5[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=128
+[0m[1;31m
+Start test 6[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=128
+[0m[1;31m
+Start test 7[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=255
+[0m[1;31m
+Start test 8[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=255
+[0m[1;31m
+Start test 9[0m
+[0;34m
+D[0m[0;34mRequest: GET http://localhost:8080/aggregate?account=255
+[0m[1;31m
+Start test 10[0m

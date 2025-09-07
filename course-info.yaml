@@ -1,0 +1,23 @@
+type: hyperskill
+title: Transaction Aggregator
+language: English
+summary: "<p>Backend services often depends on other services to receive necessary\
+  \ data. In this project, you will design and implement a Transaction Aggregator\
+  \ system that demonstrates the fundamentals of inter-service communication using\
+  \ REST APIs. The project will also introduce you to the complexities of dealing\
+  \ with remote server errors, teaching you to build robust systems that can handle\
+  \ unexpected issues gracefully. You will learn how to implement retries to ensure\
+  \ system resilience and continuity of service even when remote servers are temporarily\
+  \ unavailable.\_Additionally, you'll gain experience in applying caching to optimize\
+  \ system performance and efficiency.</p>"
+programming_language: Java
+programming_language_version: 11
+content:
+  - Transaction Aggregator
+  - Topics
+additional_files:
+  - name: .idea/inspectionProfiles/Project_Default.xml
+  - name: build.gradle
+  - name: settings.gradle
+mode: Study
+yaml_version: 4

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Create a callable" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Execute Callable objects" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Filling a blank in Java Executors code" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Get the result" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/How many Callable objects are there" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/How many tasks are finished" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Submitting Callable" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/What is Callable" />
+            <option value="$PROJECT_DIR$/Topics/Callable and Future/What is Future" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Don't be late again" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Is after, is before" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Is the date between the two other dates" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Select correct statements" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/The New Year is coming (or not)" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/The intersection of time ranges" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/What is correct" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/What is false" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/What is true" />
+            <option value="$PROJECT_DIR$/Topics/Comparing dates and time/Which return true" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Asynchronous email sending" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Check whether a number is prime" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Executor types" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Messaging" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Supplying a task" />
+            <option value="$PROJECT_DIR$/Topics/Executors/The order of lines in output" />
+            <option value="$PROJECT_DIR$/Topics/Executors/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Check for null" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Class type parameters" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Invert an array" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Methods" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Print content" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/The first element" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/The usage of parameters" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interruptions/Handling interruptions" />
+            <option value="$PROJECT_DIR$/Topics/Interruptions/Interrupt method" />
+            <option value="$PROJECT_DIR$/Topics/Interruptions/Interrupting a thread" />
+            <option value="$PROJECT_DIR$/Topics/Interruptions/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interruptions/What does the invocation cause" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/About recursion" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/Determine results of calling the method" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/Find a substring" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/Fix the method to print strings in the reverse order" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/K-combination" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/Select statement" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Recursion/What does the method do" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Transaction Aggregator/task/build/tmp" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

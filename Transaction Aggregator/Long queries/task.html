@@ -1,0 +1,44 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>The transaction aggregator service now can handle remote service errors but another problem has recently arisen. The remote services tend to take quite long to respond. To improve performance of the aggregator, this problem should be handled too.</p>
+<p>The main feature of the remote data services is that they send information about transactions made in a previous period. This means there will no new data for any account. This also means that if the aggregator has received transactions data for a given account, this information can be safely cached because it will be the same for any subsequent request.</p>
+<p>Taking this into account, choose and implement a caching strategy for the transaction aggregator service. Using an in-memory cache will be enough for this project.</p>
+<p>A good choice is using the cache functionality provided by Spring Boot.</p>
+<p>Another way to improve performance is to make requests asynchronously so that waiting for a response does not block the thread and both responses can be received effectively at the same time.</p>
+<h5 id="objectives">Objectives</h5>
+<ul>
+<li>Implement caching in the transaction aggregator service to optimize its performance despite the performance of remote services may downgrade.</li>
+<li>Implement asynchronous requests to the remote services so that one request won't block the another one.</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1.</strong> <em>GET request to the /aggregate?account=02248 endpoint</em>:</p>
+<p><em>Response code</em>: <code class="language-json">529 TOO MANY REQUESTS</code></p>
+<p><strong>Example 2.</strong> <em>GET request to the /aggregate?account=02248 endpoint</em>:</p>
+<p><em>Response code</em>: <code class="language-json">503 SERVICE UNAVAILABLE</code></p>
+<p><strong>Example 3.</strong> <em>GET request to the /aggregate?account=02248 endpoint</em>:</p>
+<p><em>Response code</em>: <code class="language-json">200 OK</code></p>
+<p><em>Response body</em>:</p>
+<pre><code class="language-json">[
+  {
+    "id":"31969aef-ffbe-413a-8a94-bc920556a0d4",
+    "serverId":"server-04",
+    "account":"02248",
+    "amount":"5120",
+    "timestamp":"2023-12-24T00:02:31.886783206"
+  },
+  {
+    "id":"dcc57df0-d815-497f-be1d-b3fb419b9bee",
+    "serverId":"server-04",
+    "account":"02248",
+    "amount":"4933",
+    "timestamp":"2023-12-21T10:33:56.886823126"
+  },
+  {
+    "id":"398c135b-b055-4415-a7be-4beb4a3c7da8",
+    "serverId":"server-25",
+    "account":"02248",
+    "amount":"1205",
+    "timestamp":"2023-12-19T16:56:48.886729416"
+  }
+]</code></pre>
+</div>
